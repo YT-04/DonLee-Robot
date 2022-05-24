@@ -141,7 +141,7 @@ async def sub(bot: Keerthy bot, msg: Import.Msg):
           Import.Button("📢𝖴𝗉𝖽𝖺𝗍𝖾𝗌", url="https://t.me/+1qdEeHOTLdQ1M2Vl"),
           Import.Button("Movie Group 2💞", url="https://t.me/+QNG5RF8mZK9mNjdl")
           ],[
-          Import.Button("🖤 Owner", url="https://t.me/Akshay_Chand"),
+          Import.Button("🖤 Owner", url="http://t.me/Keerthy_Owner_bot"),
           Import.Button("𝖨𝗇𝗌𝗍𝖺😁", url="https://www.instagram.com/akshay_chand695")
           ],[
           Import.Button("𝖢𝗅𝗈𝗌𝖾🗑️", callback_data="close")
