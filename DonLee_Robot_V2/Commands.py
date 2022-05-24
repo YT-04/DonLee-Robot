@@ -98,7 +98,7 @@ async def help(bot: DonLee_Robot_V2, msg: Import.Msg):
           Import.Button("𝖶𝖾𝗅𝖼𝗈𝗆𝖾", callback_data="welcome")
           ],[
           Import.Button("🏠𝖧𝗈𝗆𝖾", callback_data="home"),
-          Import.Button("𝖲𝗍𝖺𝗍𝗎𝗌", callback_data="status"),
+          Import.Button("📈𝖲𝗍𝖺𝗍𝗎𝗌", callback_data="status"),
           Import.Button("𝖠𝖻𝗈𝗎𝗍🤠", callback_data="about")
           ]]
         await bot.send_photo(
@@ -113,10 +113,10 @@ async def help(bot: DonLee_Robot_V2, msg: Import.Msg):
 
 
 @DonLee_Robot_V2.on_message(filters.command(["about"]) & filters.private, group=1)
-async def about(bot: DonLee_Robot_V2, msg: Import.Msg):
+async def about(bot: Keerthy bot, msg: Import.Msg):
         button = [[
-          Import.Button("👨‍💻𝖣𝖾𝗉𝗅𝗈𝗒", url='https://www.youtube.com/watch?v=NrbMc93aCzA'),
-          Import.Button("𝖲𝗈𝗎𝗋𝖼𝖾📦", callback_data="source")
+          Import.Button("👨‍💻Bot Owner contact", url='http://t.me/Keerthy_Owner_bot),
+          Import.Button("🖤", callback_data="source")
           ],[
           Import.Button("⚠️𝖧𝖾𝗅𝗉", callback_data="help"),
           Import.Button("🏠𝖧𝗈𝗆𝖾", callback_data="home"),
@@ -133,16 +133,16 @@ async def about(bot: DonLee_Robot_V2, msg: Import.Msg):
 
 
 @DonLee_Robot_V2.on_message(filters.command(["sub", "subscribe"]) & filters.private, group=1)
-async def sub(bot: DonLee_Robot_V2, msg: Import.Msg):
+async def sub(bot: Keerthy bot, msg: Import.Msg):
         button = [[     
-          Import.Button("🖥️𝖵𝗂𝖽𝖾𝗈", url="https://www.youtube.com/watch?v=NrbMc93aCzA"),
-          Import.Button("𝖲𝗎𝗉𝗉𝗈𝗋𝗍🤝", url="https://www.youtube.com/watch?v=NrbMc93aCzA")
+          Import.Button("Movie file request bot", url="http://t.me/Keerthy_Owner_bot"),
+          Import.Button("Movie Group 1🤝", url="https://t.me/+CG7AQS6IfUNhYTNl")
           ],[
-          Import.Button("📢𝖴𝗉𝖽𝖺𝗍𝖾𝗌", url="https://www.youtube.com/watch?v=NrbMc93aCzA"),
-          Import.Button("𝖸𝗈𝗎𝖳𝗎𝖻𝖾💞", url="https://www.youtube.com/watch?v=NrbMc93aCzA")
+          Import.Button("📢𝖴𝗉𝖽𝖺𝗍𝖾𝗌", url="https://t.me/+1qdEeHOTLdQ1M2Vl"),
+          Import.Button("Movie Group 2💞", url="https://t.me/+QNG5RF8mZK9mNjdl")
           ],[
-          Import.Button("📦𝖦𝗂𝗍𝗁𝗎𝖻", url="http://github.com/PR0FESS0R_99"),
-          Import.Button("𝖨𝗇𝗌𝗍𝖺😁", url="https://www.instagram.com/mrk_yt_")
+          Import.Button("🖤 Owner", url="https://t.me/Akshay_Chand"),
+          Import.Button("𝖨𝗇𝗌𝗍𝖺😁", url="https://www.instagram.com/akshay_chand695")
           ],[
           Import.Button("𝖢𝗅𝗈𝗌𝖾🗑️", callback_data="close")
           ]]                     
@@ -158,7 +158,7 @@ async def sub(bot: DonLee_Robot_V2, msg: Import.Msg):
 @DonLee_Robot_V2.on_message(filters.private & filters.command("report"))
 async def admin(bot, msg):
     button = [[  
-       Import.Button("𝖢𝗅𝗂𝖼𝗄 𝖧𝖾𝗋𝖾➡️", url="t.me/PR0FESS0R_99")
+       Import.Button("𝖢𝗅𝗂𝖼𝗄 𝖧𝖾𝗋𝖾➡️", url="t.me/Keerthy_Owner_bot")
        ]]
     await msg.reply_text(
         text="𝖢𝗈𝗇𝗍𝖾𝖼𝗍 𝖡𝗎𝗍𝗍𝗈𝗇 𝖡𝖾𝗅𝗅𝗈𝗐",
