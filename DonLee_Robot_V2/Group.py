@@ -482,7 +482,7 @@ async def auto_filter(bot, update):
             result[0].append(
                 [
                     InlineKeyboardButton("𝖭𝖾𝗑𝗍 »»", callback_data=f"navigate(0|next|{query})"),
-                    InlineKeyboardButton(f"🧾 1/{len_result if len_result < max_pages else max_pages}", callback_data="ignore"),
+                    InlineKeyboardButton(f"🗃️ 1/{len_result if len_result < max_pages else max_pages}", callback_data="ignore"),
                 ]
             )
 
